@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#0062FF",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -16,9 +16,12 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
               "quickstart",
-              "development"
+              "sales-bible",
+              "discovery-call",
+              "demo-call",
+              "dos",
+              "donts"
             ]
           },
           {
@@ -33,44 +36,14 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "slack://user?team=T086NEWBX4N&id=D08GECD642V",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -88,7 +61,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Login",
       "href": "https://dashboard.mintlify.com"
     }
   },
