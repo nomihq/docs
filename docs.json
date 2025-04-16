@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Nomi (YC X25)",
   "colors": {
     "primary": "#0062FF",
     "light": "#07C983",
-    "dark": "#15803D"
+    "dark": "#0062FF"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "YC X25 doc",
             "pages": [
               "quickstart",
               "sales-bible",
@@ -23,17 +23,18 @@
               "objections",
               "dos",
               "donts",
-              "kickoff-deck",
-              "bookface-launch"
+              "kickoff-deck"
             ]
           },
           {
             "group": "Essentials",
             "pages": [
+              "essentials/equation-of-value",
+              "essentials/bookshelf",
               "essentials/markdown",
               "essentials/code",
-              "essentials/images",
               "essentials/settings",
+              "essentials/images",
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
@@ -47,6 +48,11 @@
           "anchor": "Community",
           "href": "slack://user?team=T086NEWBX4N&id=D08GECD642V",
           "icon": "slack"
+        },
+        {
+          "anchor": "Feedback",
+          "href": "mailto:ethan@heynomi.com",
+          "icon": "envelope"
         }
       ]
     }
@@ -59,20 +65,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:ethan@heynomi.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Login",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://login.heynomi.com"
     }
   },
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/nomihq",
+      "linkedin": "https://linkedin.com/company/heynomi"
     }
   }
 }
