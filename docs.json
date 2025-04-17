@@ -30,13 +30,7 @@
             "group": "Essentials",
             "pages": [
               "essentials/equation-of-value",
-              "essentials/bookshelf",
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/settings",
-              "essentials/images",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/bookshelf"
             ]
           }
         ]
@@ -63,22 +57,17 @@
   },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "mailto:ethan@heynomi.com"
-      }
     ],
     "primary": {
       "type": "button",
-      "label": "Login",
-      "href": "https://login.heynomi.com"
+      "label": "Landing page",
+      "href": "https://www.heynomi.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
       "github": "https://github.com/nomihq",
-      "linkedin": "https://linkedin.com/company/heynomi"
+      "linkedin": "https://linkedin.com/company/nomihq"
     }
   }
 }
