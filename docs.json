@@ -69,5 +69,10 @@
       "github": "https://github.com/nomihq",
       "linkedin": "https://linkedin.com/company/nomihq"
     }
+  },
+  "seo": {
+    "metatags": {
+      "og:image": "/images/collab.png"
+    }
   }
 }
