@@ -13,7 +13,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "YC X25 doc",
+            "group": "YC X25 Founders Sales Research",
             "pages": [
               "quickstart",
               "sales-bible",
@@ -38,13 +38,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Community",
-          "href": "slack://user?team=T086NEWBX4N&id=D08GECD642V",
-          "icon": "slack"
-        },
-        {
           "anchor": "Feedback",
-          "href": "mailto:ethan@heynomi.com",
+          "href": "mailto:contact@heynomi.com",
           "icon": "envelope"
         }
       ]
@@ -59,7 +54,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Landing page",
+      "label": "Get Nomi",
       "href": "https://www.heynomi.com"
     }
   },
